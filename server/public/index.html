@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Guess A Number!</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="scripts/client.js"></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>YOUR GAME HERE!</h1>
+
+    const hello = 'hello world!'; console.log(hello);
+
+    <div class="inputFields">
+      <input type="number" id="playerOne" placeholder="Ronnie" />
+      <input type="number" id="playerTwo" placeholder="Gregg" />
+      <input type="number" id="playerThree" placeholder="Zoe" />
+      <button id="submitGuesses">Submit</button>
+      <button id="resetButton">Reset</button>
+    </div>
+    <div>
+      <p>Round # <span id="guessCount"></span></p>
+      <table class="table">
+        <thead class="thead">
+          <tr>
+            <th>Ronnie</th>
+            <th>Result</th>
+            <th>Gregg</th>
+            <th>Result</th>
+            <th>Zoe</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody id="resultOfRound"></tbody>
+      </table>
+      <div>
+        <p>The winner is <span id="winner"></span></p>
+      </div>
+    </div>
+
+    <!-- FORM  -->
+    <!-- input
+       playerone
+       playerone's guess
+       type of text -->
+    <!-- input
+       playertwo
+       playertwo's guess
+       type of text -->
+    <!-- input
+       playerthree
+       playerthree's guess
+       type of text -->
+    <!-- button to submit -->
+
+    <!-- reset button for new round/random number-->
+    <!-- TABLE -->
+    <!-- Table of Previous Guesses -->
+    <!-- Total Guesses Made counter, Player1's guess, 
+   player2's guess, player3's guess -->
+    <!-- also row for whether guess is higher or lower than
+    random number -->
+
+    <!-- section for a winner -->
+  </body>
+</html>
